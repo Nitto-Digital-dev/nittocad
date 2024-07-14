@@ -6,16 +6,20 @@ export const navLinks = [
     title: "Home",
   },
   {
+    id: "services",
+    title: "Services",
+  },
+  {
     id: "features",
     title: "Features",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
     id: "clients",
     title: "Clients",
+  },
+  {
+    id: "team",
+    title: "Team",
   },
 ];
 
@@ -23,23 +27,50 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    title: "Software Development",
+    content: "Custom software solutions tailored to your business needs. From concept to deployment, we ensure high-quality and efficient software delivery.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    title: "Website Development",
+    content: "Professional website development services that enhance your online presence and engage your customers.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    title: "Web Application Development",
+    content: "Robust web applications designed to streamline your operations and boost productivity.",
+  },
+  {
+    id: "feature-4",
+    icon: star,
+    title: "Mobile Application Development",
+    content: "Innovative mobile apps for Android and iOS platforms that keep your business at your customers’ fingertips.",
+  },
+  {
+    id: "feature-5",
+    icon: shield,
+    title: "IT Support",
+    content: "Comprehensive IT support services to keep your systems running smoothly and securely.",
+  },
+  {
+    id: "feature-6",
+    icon: send,
+    title: "Machine Learning (ML) Modeling",
+    content: "Advanced machine learning models to help your business leverage data for predictive insights and automation.",
+  },
+  {
+    id: "feature-7",
+    icon: star,
+    title: "AI Agent Services",
+    content: "Intelligent AI agents designed to improve customer interactions, automate processes, and enhance decision-making.",
+  },
+  {
+    id: "feature-8",
+    icon: shield,
+    title: "Data Analytics Services",
+    content: "In-depth data analytics services to transform your data into actionable insights, driving informed business decisions.",
   },
 ];
 
@@ -47,25 +78,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Working at Tech Innovators Inc. has been an incredible experience. The focus on AI and machine learning allows us to develop cutting-edge solutions.",
+    name: "Emily Carter",
+    title: "Senior AI Specialist",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "At Tech Innovators Inc., we constantly push the boundaries of what's possible with cloud services and software development. The collaborative environment is second to none.",
+    name: "James Anderson",
+    title: "Lead Software Developer",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Tech Innovators Inc.'s commitment to innovation in AI and data science makes it a fantastic place to work. We're always at the forefront of technological advancements.",
+    name: "Olivia Martinez",
+    title: "Data Scientist",
     img: people03,
   },
 ];
