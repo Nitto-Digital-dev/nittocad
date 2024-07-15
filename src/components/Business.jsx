@@ -26,7 +26,7 @@ const Business = () =>  (
         {/* <img src={itsolutions} alt="billing" className="w-[100%] h-[85%] relative z-[5]" /> */}
 
         {/* gradient start */}
-        <div className="absolute z-[5] w-[50%] h-[80%] top-40 blue__gradient" />
+        {/* <div className="absolute z-[0] w-[50%] h-[80%] top-40 blue__gradient" /> */}
         {/* <div className="absolute z-[1] w-[60%] h-[70%] rounded-full white__gradient bottom-40" /> */}
         {/* <div className="absolute z-[0] w-[50%] h-[50%] white__gradient bottom-40" /> */}
         {/* gradient end */}
@@ -39,17 +39,17 @@ const Business = () =>  (
     </div> */}
 
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll increase your efficiency.
+      <h2 className={styles.heading1}>
+      Our Mission is <br className="sm:block hidden" />
+      <span className="ss:text-[30px] text-[15px] xs:leading-[20.8px] leading-[20.8px]">To empower businesses through</span>{" "}<br className="sm:block hidden"/>
+      <span className="text-gradient ss:text-[70px] text-[40px] xs:leading-[90.8px] leading-[50px]">technology</span>{" "}<br className="sm:block hidden"/>
+      <span className="ss:text-[30px] text-[18px] xs:leading-[20.8px] leading-[20.8px]">providing solutions that enhance efficiency and growth.</span>{" "}
       </h2>
       <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
       At Nitto, we understand that running a business involves juggling 
       multiple tasks and priorities. That's why we offer comprehensive 
       IT solutions designed to streamline your operations and boost your 
-      productivity. Our expert team provides tailored support, from software development, 
-      artificial intelligence, Data Analytics Services, Machine Learning, 
-      enterprise resource planning (ERP) and maney other services. 
-      we ensure your systems run smoothly and efficiently, allowing you to focus on what you do best growing your business. 
+      productivity. we ensure your systems run smoothly and efficiently, allowing you to focus on what you do best growing your business. 
       Trust us to enhance your efficiency and drive your success..
       </p>
 
