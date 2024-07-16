@@ -27,8 +27,10 @@ const Contact = () => {
 
   return (
     <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} ${styles.paddingX} flex-col`}>
-      <div className="w-full max-w-[600px]">
+      <div className="w-full max-w-[600px] text-center mb-8">
         <h2 className={styles.heading2}>Contact Us</h2>
+      </div>
+      <div className="w-full max-w-[600px]">
         <form onSubmit={handleSubmit} className="mt-8">
           <div className="mb-4">
             <label className="block text-white text-sm font-poppins mb-2" htmlFor="name">

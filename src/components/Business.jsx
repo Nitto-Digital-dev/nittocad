@@ -22,7 +22,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 mr-10 relative`}>
-        <img src={business} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded-[20%]" />
+        <img src={itsolutions} alt="billing" className="w-[90%] h-[85%] relative z-[5] rounded-[20%]" />
         {/* <img src={itsolutions} alt="billing" className="w-[100%] h-[85%] relative z-[5]" /> */}
 
         {/* gradient start */}

@@ -12,8 +12,8 @@ const Footer = () => {
         <div className="flex-[1] flex flex-col justify-start mr-10">
           <img
             src={logo2}
-            alt="hoobank"
-            className="w-[266px] h-[72.14px] object-contain"
+            alt="footer logo nitto"
+            className="w-[100px] h-[72.14px] object-contain"
           />
         </div>
 
