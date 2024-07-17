@@ -4,7 +4,7 @@ import { logo2 } from '../assets';
 import { footerLinks, socialMedia } from '../constants';
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear(); // Get the current year
+  const currentYear = new Date().getFullYear();
 
   return (
     <section className={`${styles.flexCenter} ${styles.paddingY} ${styles.paddingX} flex-col`}>
@@ -31,7 +31,9 @@ const Footer = () => {
                       index !== footerlink.links.length - 1 ? "mb-2" : "mb-0"
                     }`}
                   >
-                    {link.name}
+                    <a href={link.link}>
+                      {link.name}
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -64,3 +66,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

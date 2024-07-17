@@ -21,7 +21,12 @@ export const navLinks = [
     id: "team",
     title: "Team",
   },
+  {
+    id: "contact",
+    title: "Contact",
+  },
 ];
+
 
 export const features = [
   {
@@ -119,29 +124,30 @@ export const stats = [
   },
 ];
 
+const BASE_URL = '/nittocad';
 export const footerLinks = [
   {
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "About Us",
+        link: `${BASE_URL}/about`,
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: `${BASE_URL}/about`,
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: `${BASE_URL}/about`,
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Address",
+        link: `${BASE_URL}/address`,
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: `${BASE_URL}/termsservices`,
       },
     ],
   },
@@ -150,23 +156,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: `${BASE_URL}/contact`,
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: `${BASE_URL}/about`,
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: `${BASE_URL}/about`,
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: `${BASE_URL}/about`,
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: `${BASE_URL}/about`,
       },
     ],
   },
@@ -175,11 +181,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: `${BASE_URL}/about`,
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: `${BASE_URL}/about`,
       },
     ],
   },

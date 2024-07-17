@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, forwardRef } from 'react';
 import styles from '../style';
-import Button from './Button';
 import SendButton from './SendButton';
 
-
-const Contact = () => {
+const Contact = forwardRef((props, ref) => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -21,12 +19,11 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log('Form submitted:', formData);
   };
 
   return (
-    <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} ${styles.paddingX} flex-col`}>
+    <section ref={ref} id="contact" className={`${styles.flexCenter} ${styles.paddingY} ${styles.paddingX} flex-col`}>
       <div className="w-full max-w-[600px] text-center mb-8">
         <h2 className={styles.heading2}>Contact Us</h2>
       </div>
@@ -79,6 +76,6 @@ const Contact = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Contact;

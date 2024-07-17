@@ -1,35 +1,38 @@
-import styles from "./style"
-import { Navbar, Hero, Stats, Billing, Business, CardDeal, Testimonials, Clients, CTA, Footer, Services, Contact } from "./components"
+import React, { useRef } from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
+import styles from "./style";
+import { Navbar, Footer, Home, Clients, About, Contact, TermsServices, Address } from "./components";
 
-const App = () => (
-  
-    <div className={"bg-primary w-full overflow-hidden"}>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`} >
-        <div className={`${styles.boxWidth}`}>
-          <Navbar/>
+// basename="/nittocad"
+const App = () => {
+  const contactRef = useRef(null);
+
+  return (
+    <Router basename="/nittocad">
+      <div className={"bg-primary w-full overflow-hidden"}>
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Navbar />
+          </div>
         </div>
-      </div>
-      <div className={`bg-primary w-full flex ${styles.paddingX} ${styles.flexCenter}`}></div>
-      <div className={`${styles.boxWidth}`}>
-        <Hero/>
-      </div>
+        <div className={`bg-primary w-full flex ${styles.paddingX} ${styles.flexCenter}`}></div>
+        <div className={`${styles.boxWidth}`}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/termsservices" element={< TermsServices/>} />
+            <Route path="/address" element={<Address/>} />
 
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}></div>
-      <div className={`${styles.boxWidth}`}>
-        {/* <Stats/> */}
-        <Business/>
-        <Services/>
-        <Clients/>
-        <Billing/>
-        <CardDeal/>
-        <Testimonials/>
-        <Contact/>
-        <CTA/>
-        <Footer/>
-        
+
+
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+        </div>
+        <Footer />
       </div>
+    </Router>
+  );
+};
 
-    </div>
-  )
-
-export default App
+export default App;
