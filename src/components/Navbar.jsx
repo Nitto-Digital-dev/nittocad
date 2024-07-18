@@ -7,8 +7,9 @@ const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
   const location = useLocation();
-  
-  const isBaseURL = location.pathname === '/';
+
+  const validPaths = ["/", ...navLinks.map(link => `/${link.id}`)];
+  const isBaseURL = validPaths.includes(location.pathname);
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">

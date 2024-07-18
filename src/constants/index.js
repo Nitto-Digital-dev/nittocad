@@ -131,23 +131,23 @@ export const footerLinks = [
     links: [
       {
         name: "About Us",
-        link: `${BASE_URL}/about`,
+        link: `${BASE_URL}/#about`,
       },
       {
         name: "How it Works",
-        link: `${BASE_URL}/about`,
+        link: `${BASE_URL}/#about`,
       },
       {
         name: "Create",
-        link: `${BASE_URL}/about`,
+        link: `${BASE_URL}/#about`,
       },
       {
         name: "Address",
-        link: `${BASE_URL}/address`,
+        link: `${BASE_URL}/#address`,
       },
       {
         name: "Terms & Services",
-        link: `${BASE_URL}/termsservices`,
+        link: `${BASE_URL}/#termsservices`,
       },
     ],
   },
@@ -156,23 +156,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: `${BASE_URL}/contact`,
+        link: `${BASE_URL}/#contact`,
       },
       {
         name: "Partners",
-        link: `${BASE_URL}/about`,
+        link: `${BASE_URL}/#about`,
       },
       {
         name: "Suggestions",
-        link: `${BASE_URL}/about`,
+        link: `${BASE_URL}/#about`,
       },
       {
         name: "Blog",
-        link: `${BASE_URL}/about`,
+        link: `${BASE_URL}/#about`,
       },
       {
         name: "Newsletters",
-        link: `${BASE_URL}/about`,
+        link: `${BASE_URL}/#about`,
       },
     ],
   },
@@ -181,11 +181,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: `${BASE_URL}/about`,
+        link: `${BASE_URL}/#about`,
       },
       {
         name: "Become a Partner",
-        link: `${BASE_URL}/about`,
+        link: `${BASE_URL}/#about`,
       },
     ],
   },
