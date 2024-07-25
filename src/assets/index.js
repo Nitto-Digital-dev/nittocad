@@ -23,9 +23,9 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import itsolutions from "./itsolutions.jpg";
 import logo2 from "./logo2.png";
-import business from "./business-person.jpg";
+import heroimg from "./heroimg.webp";
+import fetchereimg from "./fetchereimg.webpq";
 
 
 
@@ -56,7 +56,7 @@ export {
   people01,
   people02,
   people03,
-  itsolutions,
   logo2,
-  business
+  heroimg,
+  fetchereimg
 };

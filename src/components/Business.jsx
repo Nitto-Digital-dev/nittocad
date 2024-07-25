@@ -1,7 +1,7 @@
 import React from 'react';
 import { features } from "../constants";
 import styles, { layout } from "../style";
-import { business, robot, itsolutions } from "../assets";
+import { robot, fetchereimg} from "../assets";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -22,7 +22,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 mr-10 relative`}>
-        <img src={itsolutions} alt="billing" className="w-[90%] h-[85%] relative z-[5] rounded-[10%]" />
+        <img src={fetchereimg} alt="billing" className="w-[90%] h-[85%] relative z-[5] rounded-[10%]" />
         {/* <img src={itsolutions} alt="billing" className="w-[100%] h-[85%] relative z-[5]" /> */}
 
         {/* gradient start */}

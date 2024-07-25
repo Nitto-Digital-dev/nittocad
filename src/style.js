@@ -19,7 +19,7 @@ const styles = {
     marginY: "sm:my-16 my-6",
   };
   
-  export const layout = {
+  export const  layout = {
     section: `flex md:flex-row flex-col ${styles.paddingX} ${styles.paddingY} `,
     sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
   

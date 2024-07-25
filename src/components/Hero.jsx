@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../style";
-import { business } from "../assets";
+import { heroimg,robot } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = ({ contactRef }) => {
@@ -37,7 +37,7 @@ const Hero = ({ contactRef }) => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 mr-5 ml-5 relative`}>
-        <img src={business} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded-[5%]" />
+        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded-[5%]" />
         <div className="absolute z-[1] w-[80%] h-[80%] blue__gradient bottom-40" />
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
       </div>

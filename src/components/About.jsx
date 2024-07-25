@@ -1,6 +1,5 @@
 import React from 'react';
 import styles, { layout } from "../style";
-import { itsolutions } from "../assets";
 
 const About = () => (
   <section className={layout.section}>
