@@ -5,8 +5,8 @@ import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`items-start flex flex-row p-6 rounded-[20px] feature-card`}>
-    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
-      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
+    <div className={`w-[100px] h-[100px] rounded-[20px] ${styles.flexCenter} bg-dimBlue`}>
+      <img src={icon} alt="star" className="w-[80%] h-[80%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">

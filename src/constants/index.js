@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, software, mobileapp, webdev, webapp, ai,itsupport,ml,dataanalytics } from "../assets";
 
 export const navLinks = [
   {
@@ -31,49 +31,49 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: software,
     title: "Software Development",
     content: "Custom software solutions tailored to your business needs. From concept to deployment, we ensure high-quality and efficient software delivery.",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: webdev,
     title: "Website Development",
     content: "Professional website development services that enhance your online presence and engage your customers.",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: webapp,
     title: "Web Application Development",
     content: "Robust web applications designed to streamline your operations and boost productivity.",
   },
   {
     id: "feature-4",
-    icon: star,
+    icon: mobileapp,
     title: "Mobile Application Development",
     content: "Innovative mobile apps for Android and iOS platforms that keep your business at your customers’ fingertips.",
   },
   {
     id: "feature-5",
-    icon: shield,
+    icon: itsupport,
     title: "IT Support",
     content: "Comprehensive IT support services to keep your systems running smoothly and securely.",
   },
   {
     id: "feature-6",
-    icon: send,
+    icon: ml,
     title: "Machine Learning (ML) Modeling",
     content: "Advanced machine learning models to help your business leverage data for predictive insights and automation.",
   },
   {
     id: "feature-7",
-    icon: star,
+    icon: ai,
     title: "AI Agent Services",
     content: "Intelligent AI agents designed to improve customer interactions, automate processes, and enhance decision-making.",
   },
   {
     id: "feature-8",
-    icon: shield,
+    icon: dataanalytics,
     title: "Data Analytics Services",
     content: "In-depth data analytics services to transform your data into actionable insights, driving informed business decisions.",
   },

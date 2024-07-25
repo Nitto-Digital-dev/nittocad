@@ -26,6 +26,16 @@ import people03 from "./people03.png";
 import logo2 from "./logo2.png";
 import heroimg from "./heroimg.webp";
 import fetchereimg from "./fetchereimg.webp";
+import software from "./software.svg";
+import mobileapp from "./mobile app.svg";
+import webdev from "./web dev.svg";
+import webapp from "./web app.svg";
+import ml from "./ml.svg";
+import ai from "./ai.svg";
+import itsupport from "./itsupport.svg";
+import dataanalytics from "./data analytics.svg";
+
+
 
 
 
@@ -58,5 +68,13 @@ export {
   people03,
   logo2,
   heroimg,
-  fetchereimg
+  fetchereimg,
+  software,
+  mobileapp,
+  webdev,
+  webapp,
+  ml,
+  ai,
+  itsupport,
+  dataanalytics,
 };
