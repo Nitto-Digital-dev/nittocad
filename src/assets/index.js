@@ -25,7 +25,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import logo2 from "./logo2.png";
 import heroimg from "./heroimg.webp";
-import fetchereimg from "./fetchereimg.webpq";
+import fetchereimg from "./fetchereimg.webp";
 
 
 
