@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 
 const Address = () => (
 
-<section className={layout.section}>
+<section className={`${layout.section} py-16`}>
     <div className={layout.sectionInfo}>
     <h2 className={styles.heading1}> Our Address <br className="sm:block hidden" />
       </h2>

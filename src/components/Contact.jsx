@@ -24,7 +24,7 @@ const Contact = forwardRef((props, ref) => {
 
   return (
     <section ref={ref} id="contact" className={`${styles.flexCenter} ${styles.paddingY} ${styles.paddingX} flex-col`}>
-      <div className="w-full max-w-[600px] text-center mb-8">
+      <div className="w-full max-w-[600px] text-center xl:px-16 sm:px-16 px-6 py-10">
         <h2 className={styles.heading2}>Contact Us</h2>
       </div>
       <div className="w-full max-w-[600px]">

@@ -12,7 +12,7 @@ const Hero = ({ contactRef }) => {
 
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-16 sm:px-16 px-6`}>
+      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-16 sm:px-16 px-6 py-10`}>
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[46px] text-white ss:leading-[80px] leading-[65px] mr-5">
             Empowering Your Business

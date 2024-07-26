@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
 import { close, logo2, menu } from "../assets";
 import { navLinks } from "../constants";
@@ -6,16 +6,37 @@ import { navLinks } from "../constants";
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
+  const [scrollDirection, setScrollDirection] = useState("up");
   const location = useLocation();
-
+  
   const validPaths = ["/", ...navLinks.map(link => `/${link.id}`)];
   const isBaseURL = validPaths.includes(location.pathname);
 
+  useEffect(() => {
+    let lastScrollY = window.pageYOffset;
+
+    const updateScrollDirection = () => {
+      const scrollY = window.pageYOffset;
+      if (scrollY > lastScrollY && scrollY > 100) {
+        setScrollDirection("down");
+      } else if (scrollY < lastScrollY) {
+        setScrollDirection("up");
+      }
+      lastScrollY = scrollY > 0 ? scrollY : 0;
+    };
+
+    window.addEventListener("scroll", updateScrollDirection);
+
+    return () => {
+      window.removeEventListener("scroll", updateScrollDirection);
+    };
+  }, []);
+
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className={`w-full flex xl:px-16 sm:px-16 px-6 py-2 justify-between items-center navbar ${scrollDirection === "down" ? "navbar--hidden" : "navbar--visible"}`}>
       <img src={logo2} alt="Nitto" className="w-[100px] h-[48px]" />
 
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1"> 
         {isBaseURL ? (
           navLinks.map((nav, index) => (
             <li

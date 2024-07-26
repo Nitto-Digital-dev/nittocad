@@ -2,7 +2,7 @@ import React from 'react';
 import styles, { layout } from "../style";
 
 const About = () => (
-  <section className={layout.section}>
+  <section className={`${layout.section} py-16`}>
     <div className={layout.sectionInfo}>
     <h2 className={styles.heading1}>
         About Us <br className="sm:block hidden" />
