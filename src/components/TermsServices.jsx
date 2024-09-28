@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 
 const TermsServices = () => {
   return (
-    <section id="terms" className={`${layout.section}`}>
+    <section id="terms" className={`${layout.section} py-16`}>
     <div className={`${styles.sectionInfo} ${styles.flexStart} flex-col`}>
       <h2 className={styles.heading2}>
         Terms and Services

@@ -10,10 +10,10 @@ const Home = () => {
     <div className={"bg-primary w-full overflow-hidden"}>
       <div className={`${styles.boxWidth}`}>
           <Hero contactRef={contactRef} />
-          <Business />
           <Services />
-          <Clients />
           <CardDeal />
+          <Business />
+          <Clients />
           <Testimonials />
           <Contact ref={contactRef} />
       </div>

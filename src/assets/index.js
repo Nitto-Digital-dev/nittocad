@@ -24,7 +24,6 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import logo2 from "./logo2.png";
-import heroimg from "./heroimg.webp";
 import fetchereimg from "./fetchereimg.webp";
 import software from "./software.svg";
 import mobileapp from "./mobile app.svg";
@@ -34,6 +33,7 @@ import ml from "./ml.svg";
 import ai from "./ai.svg";
 import itsupport from "./itsupport.svg";
 import dataanalytics from "./data analytics.svg";
+import dataanypic from "./dataanylysis.png";
 
 
 
@@ -77,4 +77,5 @@ export {
   ai,
   itsupport,
   dataanalytics,
+  dataanypic,
 };

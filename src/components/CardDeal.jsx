@@ -1,4 +1,4 @@
-import { card,robot,heroimg } from "../assets";
+import { card,robot,heroimg,dataanypic } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -18,7 +18,7 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={heroimg} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={dataanypic} alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );
